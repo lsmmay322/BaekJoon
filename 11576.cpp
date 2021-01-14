@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 
-vector <int> ft_to_b(int b, int n) # 10 -> b
+vector <int> ft_to_b(int b, int n)
 {
 	vector <int> res;
 
@@ -15,7 +15,7 @@ vector <int> ft_to_b(int b, int n) # 10 -> b
 	res.push_back(n);
 	return (res);
 }
-int ft_dec(int a, int* n, int m) # a -> 10
+int ft_dec(int a, int* n, int m)
 {
 	int res;
 
