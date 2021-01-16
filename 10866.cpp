@@ -27,7 +27,7 @@ int main()
             }
             else
             {
-                arr.front();
+                cout << arr.front() << '\n';
 				arr.pop_front();
             }
         }
@@ -37,7 +37,7 @@ int main()
             }
             else
             {
-                arr.back();
+                cout << arr.back() << '\n';
 				arr.pop_back();
             }
         }
